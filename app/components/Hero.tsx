@@ -31,7 +31,7 @@ export default function Hero() {
             </p>
 
             <div className="flex gap-4 flex-wrap animate-fade-up" style={{ animationDelay: "0.8s" }}>
-              <a href="#shop" className="hero-cta-primary">
+              <a href="/shop" className="hero-cta-primary">
                 Shop the Drop
               </a>
               <a

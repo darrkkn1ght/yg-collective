@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Archivo_Black } from "next/font/google";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import PageTransition from "./components/PageTransition";
 import "./globals.css";
 
 const inter = Inter({
@@ -31,7 +32,7 @@ export const metadata: Metadata = {
     title: "YG Collective — Young And Gifted",
     description:
       "Premium streetwear for the young and gifted. Est. 2026.",
-    url: "https://ygcollectives.com",
+    url: "https://ygcollective.com",
     siteName: "YG Collective",
     type: "website",
   },
@@ -49,7 +50,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col font-sans bg-ink text-bone">
         <Header />
-        <main className="flex-1">{children}</main>
+        <main className="flex-1"><PageTransition>{children}</PageTransition></main>
         <Footer />
       </body>
     </html>
