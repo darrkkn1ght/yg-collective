@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const metadata = {
   title: "About Us | YG Collective",
-  description: "The story of YG Collective, a premium streetwear brand born in Lagos.",
+  description: "The story of YG Collective, a premium streetwear brand born in Ibadan.",
 };
 
 export default function AboutPage() {
@@ -23,7 +23,7 @@ export default function AboutPage() {
         <div className="grid md:grid-cols-2 gap-24 mb-24">
           <div>
             <p className="text-bone/70 text-lg leading-relaxed">
-              Founded in {brand.established}, YG Collective was born on the streets of Lagos with a singular mission: to craft premium streetwear for the Young and Gifted. We believe that true style isn&apos;t just worn—it&apos;s earned, lived, and expressed through uncompromised quality and intentional design.
+              Founded in {brand.established}, YG Collective was born on the streets of Ibadan with a singular mission: to craft premium streetwear for the Young and Gifted. We believe that true style isn&apos;t just worn—it&apos;s earned, lived, and expressed through uncompromised quality and intentional design.
             </p>
           </div>
           <div>

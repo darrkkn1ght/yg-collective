@@ -27,7 +27,7 @@ export default function Hero() {
             </h2>
 
             <p className="text-bone/50 text-sm tracking-[0.15em] uppercase mb-10 animate-fade-up" style={{ animationDelay: "0.6s" }}>
-              Premium Streetwear &bull; Lagos to the World
+              Premium Streetwear &bull; Ibadan to the World
             </p>
 
             <div className="flex gap-4 flex-wrap animate-fade-up" style={{ animationDelay: "0.8s" }}>

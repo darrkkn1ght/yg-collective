@@ -8,7 +8,7 @@ export default function BrandStory() {
           <p className="text-lg leading-relaxed mb-6">
             YG Collective was born from a simple belief: that young people carry
             extraordinary gifts, and what they wear should reflect that truth.
-            Rooted in Lagos and inspired by a global creative culture, we craft
+            Rooted in Ibadan and inspired by a global creative culture, we craft
             premium streetwear that speaks to ambition, artistry, and
             authenticity. 
           </p>

@@ -65,7 +65,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <p className="font-bold">Headquarters</p>
-                <p className="text-sm text-bone/50">Lagos, Nigeria</p>
+                <p className="text-sm text-bone/50">Ibadan, Nigeria</p>
               </div>
             </div>
           </div>
