@@ -67,11 +67,10 @@ export default function ProductCard({
       </div>
 
       {/* Info */}
-      <div className="product-info p-3">
-        <div className="flex justify-between items-start mb-1">
-          <h3 className="font-display text-base uppercase tracking-widest leading-none">{name}</h3>
-        </div>
-        <div className="flex justify-between items-end">
+      <div className="product-info p-3 flex flex-col gap-2">
+        <h3 className="font-display text-sm md:text-base uppercase tracking-widest leading-tight">{name}</h3>
+        
+        <div className="flex justify-between items-end mt-auto">
           <span className="text-foreground/60 text-[10px] tracking-wider uppercase">
             {categoryLabels[category] || category}
           </span>
