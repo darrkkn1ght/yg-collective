@@ -360,16 +360,18 @@ html {
   position: relative;
   display: flex;
   flex-direction: column;
-  background: var(--background);
+  background: var(--color-bone);
+  color: var(--background);
   border: 1px solid var(--foreground);
   border-radius: 0px;
   overflow: hidden;
+  box-shadow: 6px 6px 0px var(--color-gold);
   transition: all 0.2s ease-out;
 }
 
 .product-card:hover {
-  transform: translate(-2px, -2px);
-  box-shadow: 6px 6px 0px var(--foreground);
+  transform: translate(-4px, -4px);
+  box-shadow: 10px 10px 0px var(--color-gold);
 }
 
 .product-badge {
@@ -377,8 +379,8 @@ html {
   top: 0;
   left: 0;
   z-index: 20;
-  background: var(--foreground);
-  color: var(--background);
+  background: var(--color-gold);
+  color: #000;
   font-size: 0.65rem;
   font-weight: 800;
   letter-spacing: 0.1em;
@@ -421,7 +423,7 @@ html {
 .product-name {
   font-size: 0.8125rem;
   font-weight: 600;
-  color: var(--color-bone);
+  color: var(--background);
   margin: 0;
   line-height: 1.3;
 }
@@ -542,12 +544,20 @@ html {
 }
 
 .pricelist-table th {
-  padding: 0.875rem 1rem;
-  font-size: 0.6875rem;
+  padding: 0.5rem;
+  font-size: 0.6rem;
   font-weight: 700;
   color: var(--color-gold);
-  letter-spacing: 0.15em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+
+@media (min-width: 640px) {
+  .pricelist-table th {
+    padding: 0.875rem 1rem;
+    font-size: 0.6875rem;
+    letter-spacing: 0.15em;
+  }
 }
 
 .pricelist-table tbody tr {
@@ -560,7 +570,15 @@ html {
 }
 
 .pricelist-table td {
-  padding: 1rem;
+  padding: 0.75rem 0.25rem;
+  white-space: nowrap;
+}
+
+@media (min-width: 640px) {
+  .pricelist-table td {
+    padding: 1rem;
+    white-space: normal;
+  }
 }
 
 .pricelist-item {

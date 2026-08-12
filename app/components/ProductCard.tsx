@@ -71,13 +71,13 @@ export default function ProductCard({
         <h3 className="font-display text-sm md:text-base uppercase tracking-widest leading-tight">{name}</h3>
         
         <div className="flex justify-between items-end mt-auto">
-          <span className="text-foreground/60 text-[10px] tracking-wider uppercase">
+          <span className="text-ink/60 text-[10px] tracking-wider uppercase font-bold">
             {categoryLabels[category] || category}
           </span>
           <div className="flex flex-col items-end">
-            <span className="font-bold font-sans text-sm">{formattedPrice}</span>
+            <span className="font-bold font-sans text-sm text-ink">{formattedPrice}</span>
             {discount > 0 && (
-              <span className="text-foreground/40 text-xs line-through">{formattedRegular}</span>
+              <span className="text-ink/40 text-xs line-through">{formattedRegular}</span>
             )}
           </div>
         </div>
