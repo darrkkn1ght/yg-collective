@@ -64,9 +64,10 @@ export default function Header() {
             href={`https://wa.me/${brand.whatsapp.replace('+', '')}`}
             target="_blank"
             rel="noreferrer"
-            className="text-xs font-bold uppercase tracking-widest text-gold hover:text-bone transition-colors"
+            className="text-gold hover:text-bone transition-colors"
+            aria-label="Contact us on WhatsApp"
           >
-            WhatsApp CTA
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
           </a>
         </nav>
 
@@ -106,9 +107,10 @@ export default function Header() {
             href={`https://wa.me/${brand.whatsapp.replace('+', '')}`}
             target="_blank"
             rel="noreferrer"
-            className="inline-block text-center text-sm font-bold uppercase tracking-widest text-gold hover:text-bone transition-colors"
+            className="flex items-center gap-2 text-sm font-bold uppercase tracking-widest text-gold hover:text-bone transition-colors"
           >
-            WhatsApp CTA
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+            Message Us
           </a>
         </nav>
       )}

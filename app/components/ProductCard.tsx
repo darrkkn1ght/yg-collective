@@ -67,16 +67,20 @@ export default function ProductCard({
       </div>
 
       {/* Info */}
-      <div className="product-info">
-        <span className="product-category">
-          {categoryLabels[category] || category}
-        </span>
-        <h3 className="product-name">{name}</h3>
-        <div className="product-pricing">
-          <span className="product-price">{formattedPrice}</span>
-          {discount > 0 && (
-            <span className="product-regular">{formattedRegular}</span>
-          )}
+      <div className="product-info p-3">
+        <div className="flex justify-between items-start mb-1">
+          <h3 className="font-display text-base uppercase tracking-widest leading-none">{name}</h3>
+        </div>
+        <div className="flex justify-between items-end">
+          <span className="text-foreground/60 text-[10px] tracking-wider uppercase">
+            {categoryLabels[category] || category}
+          </span>
+          <div className="flex flex-col items-end">
+            <span className="font-bold font-sans text-sm">{formattedPrice}</span>
+            {discount > 0 && (
+              <span className="text-foreground/40 text-xs line-through">{formattedRegular}</span>
+            )}
+          </div>
         </div>
       </div>
 
