@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import { Inter, Archivo_Black } from "next/font/google";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import ThemeToggle from "./components/ThemeToggle";
-import { Providers } from "./providers";
 import "./globals.css";
 
 const inter = Inter({
@@ -47,16 +45,12 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.variable} ${archivoBlack.variable} h-full antialiased`}
-      suppressHydrationWarning
+      className={`${inter.variable} ${archivoBlack.variable} h-full antialiased dark`}
     >
-      <body className="min-h-full flex flex-col font-sans bg-background text-foreground transition-colors duration-300">
-        <Providers>
-          <Header />
-          <main className="flex-1">{children}</main>
-          <Footer />
-          <ThemeToggle />
-        </Providers>
+      <body className="min-h-full flex flex-col font-sans bg-ink text-bone">
+        <Header />
+        <main className="flex-1">{children}</main>
+        <Footer />
       </body>
     </html>
   );
