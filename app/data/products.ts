@@ -58,6 +58,22 @@ export const products: Product[] = [
     image: "1000673688.png",
   },
   {
+    id: "striped-tee-cream",
+    name: "Signature Striped Tee (Cream)",
+    category: "tees",
+    price: 27000,
+    regularPrice: 30000,
+    image: "striped-tee-cream.jpeg",
+  },
+  {
+    id: "striped-tee-black",
+    name: "Signature Striped Tee (Black)",
+    category: "tees",
+    price: 27000,
+    regularPrice: 30000,
+    image: "striped-tee-black.jpeg",
+  },
+  {
     id: "tee-black-angel",
     name: "Gifted Always Premium Tee (Black)",
     category: "tees",
@@ -92,6 +108,7 @@ export const categories: Product["category"][] = [
 ];
 
 export const priceList = [
+  { item: "Striped Tees", regular: 30000, launch: 27000 },
   { item: "Premium Tees (White/Black)", regular: 25000, launch: 23000 },
   { item: "Crop Tees", regular: 20000, launch: 17000 },
   { item: "Tank Tops", regular: 17000, launch: 15000 },

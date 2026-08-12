@@ -5,6 +5,7 @@ export interface PriceItem {
 }
 
 export const priceList: PriceItem[] = [
+  { item: "Striped Tees", regular: 30000, launch: 27000 },
   { item: "Premium Tees (White/Black)", regular: 25000, launch: 23000 },
   { item: "Crop Tees", regular: 20000, launch: 17000 },
   { item: "Tank Tops", regular: 17000, launch: 15000 },
