@@ -48,6 +48,7 @@ export default function RootLayout({
     <html
       lang="en"
       className={`${inter.variable} ${archivoBlack.variable} h-full antialiased`}
+      suppressHydrationWarning
     >
       <body className="min-h-full flex flex-col font-sans bg-background text-foreground transition-colors duration-300">
         <Providers>

@@ -1,5 +1,4 @@
 import { brand } from "@/app/data/brand";
-import { Instagram, MessageCircle, Globe, Mail, MapPin } from "lucide-react";
 
 export const metadata = {
   title: "Contact | YG Collective",
@@ -25,7 +24,7 @@ export default function ContactPage() {
             
             <a href={`https://wa.me/${brand.whatsapp.replace('+', '')}`} target="_blank" rel="noreferrer" className="flex items-center gap-4 text-bone mb-6 hover:text-gold transition-colors">
               <div className="w-12 h-12 rounded-full bg-bone/5 flex items-center justify-center">
-                <MessageCircle size={20} />
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
               </div>
               <div>
                 <p className="font-bold">WhatsApp</p>
@@ -35,7 +34,7 @@ export default function ContactPage() {
 
             <div className="flex items-center gap-4 text-bone mb-6">
               <div className="w-12 h-12 rounded-full bg-bone/5 flex items-center justify-center">
-                <Mail size={20} />
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
               </div>
               <div>
                 <p className="font-bold">Email</p>
@@ -50,7 +49,7 @@ export default function ContactPage() {
              
              <a href={`https://instagram.com/${brand.instagram.replace('@', '')}`} target="_blank" rel="noreferrer" className="flex items-center gap-4 text-bone mb-6 hover:text-gold transition-colors">
               <div className="w-12 h-12 rounded-full bg-bone/5 flex items-center justify-center">
-                <Instagram size={20} />
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
               </div>
               <div>
                 <p className="font-bold">Instagram</p>
@@ -60,7 +59,7 @@ export default function ContactPage() {
 
             <div className="flex items-center gap-4 text-bone mb-6">
               <div className="w-12 h-12 rounded-full bg-bone/5 flex items-center justify-center">
-                <MapPin size={20} />
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
               </div>
               <div>
                 <p className="font-bold">Headquarters</p>

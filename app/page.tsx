@@ -9,7 +9,7 @@ export default function Home() {
       <Hero />
       <Marquee />
       <BrandStory />
-      <section className="bg-ink flex justify-center pb-32">
+      <section className="bg-bone flex justify-center pb-32">
         <Link href="/shop" className="hero-cta-primary text-center">
           View Full Collection
         </Link>
