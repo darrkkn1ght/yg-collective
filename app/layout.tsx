@@ -21,6 +21,7 @@ export const metadata: Metadata = {
   title: "YG Collective — Young And Gifted | Premium Streetwear",
   description:
     "YG Collective is an Ibadan-born premium streetwear brand for the young and gifted. Shop graphic tees, crop tees, tanks, caps, and beanies. Est. 2026.",
+  manifest: "/site.webmanifest",
   keywords: [
     "YG Collective",
     "Young And Gifted",
